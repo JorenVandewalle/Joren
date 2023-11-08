@@ -1,0 +1,261 @@
+html {
+    scroll-behavior: smooth;
+    background-color: darkcyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+}
+
+
+body {
+    width: 90%;
+    background-color: rgb(134, 196, 228);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* top: image, center text */
+.top {
+    text-align: center;
+    background-image: url("../images/climate.jpg");
+    background-position: center;
+    background-size: 100%;
+    overflow: hidden;
+    color: rgb(255, 15, 15);
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+/* navbar */
+ul {
+    list-style-type: none;
+    background-color: rgb(249, 138, 98);
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+li {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    float: left;
+}
+
+a:hover {
+    background-color: rgb(234, 72, 13);
+    padding: 5px;
+    margin: 5px;
+}
+
+/* About us */
+.Aboutus {
+    background-color: rgb(239, 155, 87);
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin-top: 5px;
+}
+
+.Aboutus p {
+    text-align: justify;
+}
+
+.drogezeeimg {
+    float: right;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 25%;
+    height: 25%;
+}
+
+/* Climate change */
+.Climatechange {
+    background-color: rgb(226, 166, 117);
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin-top: 5px;
+}
+
+.climatechangeimg {
+    float: right;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* IoT4Climate */
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.IoTandclimatechange {
+    background-color: rgb(239, 155, 87);
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin-top: 5px;
+}
+
+.outside {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+}
+
+.list {
+    list-style: circle;
+}
+
+img {
+    float: center;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 70%;
+    height: 70%;
+}
+
+/* contact form */
+.Contact {
+    background-color: rgb(226, 166, 117);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: black 1px solid;
+    margin-top: 5px;
+}
+
+.infoContact{
+    background-color: rgb(226, 166, 117);
+    overflow: hidden;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 5px;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    width: 0.5%;
+}
+
+.leftForm {
+    width: 45%;
+    float: left;
+    text-align: right;
+    padding: 10px 30px 10px 20px;
+    overflow: hidden;
+}
+
+.InfoL {
+    float: right;
+}
+
+.InfoL th,
+td {
+    height: 30px;
+    padding: 10px;
+}
+
+.rightForm {
+    width: 45%;
+    float: right;
+    padding: 10px 30px 10px 20px;
+    overflow: hidden;
+}
+
+label {
+    border:rgb(115, 46, 23) 1px solid;
+    background-color: rgb(244, 97, 48);
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 4%;
+    border-radius: 5px;
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    width: 92%;
+    margin: -5px;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border:rgb(115, 46, 23) 1px solid;
+    
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border:rgb(115, 46, 23) 1px solid;
+}
+
+input[type=submit] {
+    width: 101%;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(244, 97, 48);
+    border:rgb(115, 46, 23) 1px solid;
+}
+
+
+
+/* footer */
+.footer{
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: smaller;
+    background-color: rgb(228, 78, 78);
+    margin-top: 5px;
+    color: blue;
+}
+
+/* titles */
+#title{
+    color: rgb(34, 90, 245);
+}
